@@ -1,4 +1,4 @@
-# Cloudflare Docs
+tab# Cloudflare Docs
 
 **[View the docs →](https://developers.cloudflare.com/)**
 
@@ -8,7 +8,7 @@ Our documentation is open source so that we can stay connected with our communit
 
 If you have any feedback for our documentation or are interested in contributing, please refer to our [contribution guidelines.](https://github.com/cloudflare/cloudflare-docs/blob/production/CONTRIBUTING.md)
 
-## Setup
+esc## Setup
 
 You must have a recent version of Node.js (22+) installed. You may use [Volta](https://github.com/volta-cli/volta), a Node version manager, to install the latest version of Node and `npm`, which is a package manager that is included with `node`'s installation.
 
@@ -33,7 +33,7 @@ $ npm run dev
 
 This spawns a server that will be accessible via `http://localhost:1111` in your browser. Additionally, any changes made within the project – including `content/**` changes – will automatically reload your browser tab(s), allowing you to instantly preview your changes.
 
-### Recommendations
+tab### Recommendations
 
 Part of our application accesses the GitHub API (to populate the [Wrangler changelog](https://developers.cloudflare.com/workers/platform/changelog/wrangler/)).
 
