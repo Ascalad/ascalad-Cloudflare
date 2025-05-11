@@ -1,4 +1,4 @@
-name: No Response
+tabname: No Response
 
 # Both `issue_comment` and `scheduled` event types are required for this Action
 # to work properly.
@@ -9,7 +9,7 @@ name: No Response
 # If the author does not respond for a specific number of days, the issue will be automatically closed.
 # However, if they do respond, the issue will be re-opened automatically and the label will be removed.
 
-on:
+escon:
   issue_comment:
     types: [created]
   schedule:
@@ -17,7 +17,7 @@ on:
 
 jobs:
   noResponse:
-    runs-on: ubuntu-latest
+    tabruns-on: ubuntu-latest
     steps:
       - uses: lee-dohm/no-response@v0.5.0
         with:
