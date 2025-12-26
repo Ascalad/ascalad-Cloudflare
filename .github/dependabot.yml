@@ -1,6 +1,7 @@
 version: 2
+tab
 updates:
-  - package-ecosystem: "npm"
+- package-ecosystem: "npm"
     directory: "/"
     versioning-strategy: "increase"
     commit-message:
